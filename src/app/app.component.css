@@ -1,0 +1,24 @@
+.toolbar {
+    background: linear-gradient(45deg, rgb(35, 112, 179), rgb(25, 47, 66) 70.71%);
+}
+
+.logo {
+    width: 20%;
+}
+
+.view {
+    height: 100%;
+    background: url('/assets/images/background.jpg')
+}
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%));
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%);
+    height: 100%;
+}
+
+.percent-label {
+    color: #5e675eb5;
+    font-size: 40px;
+}
