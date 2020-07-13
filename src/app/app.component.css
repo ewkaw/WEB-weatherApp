@@ -1,24 +1,56 @@
-.toolbar {
-    background: linear-gradient(45deg, rgb(35, 112, 179), rgb(25, 47, 66) 70.71%);
-}
-
-.logo {
-    width: 20%;
-}
-
-.view {
+.main {
+    flex-direction: column;
+    display: flex;
     height: 100%;
-    background: url('/assets/images/background.jpg')
+    width: 100%;
 }
 
-.rgba-gradient {
-    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%));
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(124, 105, 148, 0.4) 100%);
-    height: 100%;
+.main-card {
+    width: 457px;
+    height: 194px;
+    margin: 50px;
 }
 
-.percent-label {
-    color: #5e675eb5;
-    font-size: 40px;
+.degres {
+    font-size: 56px;
+    margin-left: 25px;
+}
+
+.right-info {
+    display: flex;
+    margin-left: 49px;
+    flex-direction: column;
+}
+
+.temperature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.humidity-img {
+    width: 25px;
+    height: 25px;
+}
+
+.sun-img {
+    height: 90px;
+    width: 90px;
+}
+
+.main-content {
+    flex-direction: row;
+    display: flex;
+}
+
+.humidity {
+    font-size: 27px;
+}
+
+.pressure {
+    font-size: 29px;
+}
+
+.city-text {
+    font-size: 32px;
 }
