@@ -2,12 +2,18 @@
     <mat-card class="main-card">
         <mat-card-title class="city-text">Jakubowo</mat-card-title>
         <mat-card-content class="main-content">
-            <div class='temperature'><img src="../assets/images/sun.png" class="sun-img">
-                <div class="degres">25 &deg;C</div>
+            <div class="date-temp">
+                <div class="date">
+                    <label class="day">{{day}}</label>
+                    <label class="date">{{dayNum}} {{month}} {{year}}</label>
+                </div>
+                <div class='temperature'><img src="../assets/images/sun.png" class="sun-img">
+                    <div class="degres">25 &deg;C</div>
+                </div>
             </div>
-            <div class="right-info">
+            <div class="additional-info">
                 <div class="humidity"><img src="../assets/images/water.png" class="humidity-img">50%</div>
-                <div class="pressure">1100 hPa</div>
+                <div class="pressure"><img src="../assets/images/pressure-color2.png" class="pressure-img">1100 hPa</div>
             </div>
         </mat-card-content>
     </mat-card>

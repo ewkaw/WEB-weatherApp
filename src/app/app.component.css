@@ -1,14 +1,37 @@
 .main {
     flex-direction: column;
     display: flex;
-    height: 100%;
+    height: -webkit-fill-available;
     width: 100%;
+    background: linear-gradient(45deg, #24242b6b, #65659c99, #3641b566);
 }
 
 .main-card {
-    width: 457px;
-    height: 194px;
+    color: white;
+    width: 550px;
+    height: 500px;
     margin: 50px;
+    border-radius: 21px;
+    background: #00000036;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+}
+
+.date-temp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.day {
+    font-size: 25px;
+}
+
+.date {
+    font-size: 23px;
 }
 
 .degres {
@@ -16,30 +39,39 @@
     margin-left: 25px;
 }
 
-.right-info {
+.additional-info {
     display: flex;
-    margin-left: 49px;
-    flex-direction: column;
+    position: relative;
+    flex-direction: row;
+    top: 40px;
 }
 
 .temperature {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 90px;
 }
 
 .humidity-img {
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
+    margin-right: 11px;
+}
+
+.pressure-img {
+    width: 55px;
+    height: 55px;
+    margin-right: 11px;
 }
 
 .sun-img {
-    height: 90px;
-    width: 90px;
+    height: 110px;
+    width: 110px;
 }
 
 .main-content {
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
 }
 
@@ -49,8 +81,9 @@
 
 .pressure {
     font-size: 29px;
+    margin-left: 40px;
 }
 
 .city-text {
-    font-size: 32px;
+    font-size: 51px;
 }

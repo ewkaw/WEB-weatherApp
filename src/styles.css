@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+html {
+    height: 100%;
+}
+
+html body {
+    background-image: url("./assets/images/clouds.jpg");
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+    box-shadow: 0 3px 6px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, 0.65), 0 1px 3px 0 rgba(0, 0, 0, 0.64) !important;
+}
